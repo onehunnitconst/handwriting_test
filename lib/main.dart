@@ -1,12 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:handwriting_test/color_palette.dart';
 import 'package:handwriting_test/painter.dart';
 import 'package:handwriting_test/painter_state_cubit.dart';
-import 'package:handwriting_test/stroke_width_list.dart';
-import 'package:handwriting_test/stroke_width_type.dart';
 import 'package:provider/provider.dart';
 
-void main() {
+void main() async {
   runApp(
     MultiProvider(providers: [
       Provider<PainterStateCubit>(create: (context) => PainterStateCubit())

@@ -47,5 +47,9 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>라이브러리에 접근하도록 허용합니다.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>라이브러리에 접근하도록 허용합니다.</string>
 </dict>
 </plist>

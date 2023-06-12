@@ -1,6 +1,7 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter/material.dart';
 import 'package:handwriting_test/color_palette.dart';
+import 'package:handwriting_test/save_button.dart';
 import 'package:handwriting_test/erase_button.dart';
 import 'package:handwriting_test/painter_state.dart';
 import 'package:handwriting_test/painter_state_cubit.dart';
@@ -51,6 +52,7 @@ class Painter extends StatelessWidget {
                             Colors.blue,
                           ], painterStateCubit: painterStateCubit),
                           EraseButton(painterStateCubit: painterStateCubit),
+                          SaveButton(painterStateCubit: painterStateCubit, parentContext: context,)
                         ],
                       ),
                       StrokeWidthButtonList(
