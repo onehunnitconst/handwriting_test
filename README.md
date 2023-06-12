@@ -1,16 +1,11 @@
-# scribble_handwriting_test
+# 플러터 손글씨 테스트 앱 (가칭)
+![](DEMO.png)
 
-A new Flutter project.
+## 개요
+손글씨를 글자로 옮기는 기능 개발을 위한 테스트 앱입니다.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## TODO
+- [x] `CustomPainter`로 그림판 구현
+- [x] 팔레트 구현
+- [x] Provider(의존성 주입용) 및 FlutterBloc(상태관리) 적용
+- [ ] 손글씨 학습 모델 적용
